@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-color: #ffd9b7;
+    text-align: center;
+}
+
+main{
+    width: 50%;
+    margin: 10px 25% 10px 25%;
+}
+
+header{
+    padding: 20px 0 20px 0;
+    color: honeydew;
+    background-color: #751518;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #212121;
+    border-bottom: #212121 solid 2px;
+}
+
+h1, h5{
+    margin: 0;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+.champ{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+input{
+    height: 20px;
+}
+
+p{
+    margin: 0;
+}
+
+p, span{
+    height: 20px;
+}
+
+.btn {
+    background-color:#751518;
+    border:2px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+}
+
+.btn:hover {
+    background-color:#5e1315;
+}
+.btn:active {
+    position:relative;
+    top:1px;
+}
+
+fieldset{
+    margin-top: 20px;
+}
+
+#champSpend, #champIncome, #bank{
+    border-top: honeydew solid 2px;
+    border-bottom: honeydew solid 2px;
+    width: 50%;
+    padding: 15px 25% 15px 25%;
+}
+
+#spending{
+    padding: 5px 0 5px 0;
+}
+
+#calculDisplay{
+    font-size: 20px;
+}

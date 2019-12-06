@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+
+<body>
+    <header>
+        <h1>CALCULEZ VOTRE BUDGET.FR</h1>
+        <h5>La ressemblance avec d'autres noms de site n'est pas volontaire</h5>
+    </header>
+    <div id="main">
+        <h2>Veuillez entrer vos valeurs</h2>
+            <h2>Dépenses</h2>
+            <div id="champSpend">
+                <div class="champ">
+                    <p>Factures :</p>
+                    <input class="inputSpend" type="number" step="0.1">
+                    <span>€ par mois</span>
+                </div>
+                <div class="champ">
+                    <p>Loyer :</p>
+                    <input class="inputSpend" type="number" step="0.1">
+                    <span>€ par mois</span>
+                </div>
+                <div class="champ">
+                    <p>Courses :</p>
+                    <input class="inputSpend" type="number" step="0.1">
+                    <span>€ par semaine</span>
+                </div>
+                <div class="champ">
+                    <p>Impots :</p>
+                    <input class="inputSpend" type="number" step="0.1">
+                    <span>€ par an</span>
+                </div>
+                <button class="btnAdd">Ajouter un champ</button>
+            </div>
+        <div id="income">
+            <h2>Recettes</h2>
+            <div id="champIncome">
+                <div class="champ">
+                    <p>Salaires :</p>
+                    <input class="inputIncome" type="number" step="0.1">
+                    <span>€ par mois</span>
+                </div>
+                <div class="champ">
+                    <p>Aides/Allocations :</p>
+                    <input class="inputIncome" type="number" step="0.1">
+                    <span>€ par mois</span>
+                </div>
+                <button class="btnAdd">Ajouter un champ</button>
+            </div>
+
+        </div>
+
+        <h2>Placements</h2>
+        <div id="bank">
+            <div class="champ">
+                <p>Épargne :</p>
+                <input id="inputBank" type="number" step="0.1">
+                <span>€</span>
+            </div>
+        </div>
+
+        <div class="form-btns">
+            <button class="btn" id="reset">Rénitialiser</button>
+            <button class="btn" id="validate">Lancer le calcul</button>
+        </div>
+        <div id="calculDisplay">
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
